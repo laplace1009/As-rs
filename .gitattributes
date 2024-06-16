@@ -1,0 +1,9 @@
+# Ensure .gitignore uses LF
+.gitignore text eol=lf
+
+# Ensure Cargo files use LF
+Cargo.lock text eol=lf
+Cargo.toml text eol=lf
+
+# Ensure Rust source files use LF
+*.rs text eol=lf
